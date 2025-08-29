@@ -1,0 +1,48 @@
+# Vercel ignore file
+# See https://vercel.com/docs/concepts/deployments/vercelignore
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Backend files (since we're only deploying frontend)
+../backend/
+../requirements*.txt
+../setup*.sh
+../*.md
+../Dockerfile
+../docker-compose.yml
+../azure*.md
+../DEPLOYMENT*.md
